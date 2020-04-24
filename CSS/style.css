@@ -1,16 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: arial;
+    font-size: 17px;
 }
-.img {
+.column {
    width: 30%; 
    height: 30%;
    float: left;
-   margin-top: 40px;
-   background-color: #CCD6DD;
+   margin-top: 10px;
+  /* background-color: #CCD6DD;*/
 }
-
-
+.float{
+    float: left;
+   
+}
 .bg {
     margin-left: 30%;
     height: 30%;
@@ -18,39 +22,86 @@
 }
 img {
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 header {
-    background-color: #292F33;
+    background-color: #221F1F;
     color: whitesmoke;
+    height: 60px;
+    width: 100%;
 }
 body {
     padding: 10px;
-    background-color: #CCD6DD;
+    background-color:#3F729B;
    height: 100%;
 }
-h1,h2{
+h1{
     text-align: center;
     padding: 5px;
+    font-size: 30px;
+}
+h2{
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 30%;
+}
+h3{
+    font-size: 20px;
 }
 .purple {
  color: #55ACEE;
+ font-size: 30px;
 }
 form {
     margin-top: 48px;
+    
+   /* box-shadow: 1,5 ,solid gray;*/
 }
  label {
     padding: 20px;
-    
     text-transform: uppercase;
     text-emphasis-style:bold;
-   
 }
 .border {
-    border-bottom: solid gray 2px;
+   
     margin-top:20px;
 }
-.div2 {
+.row {
+    height: 30%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+.color{
     background-color: #292F33;
     height: 30%;
+    padding: 50px;
+    
+}
+.content{
+    margin-left: 30%;
+    color: lavender;
+    margin-top: 20px;
+    width: 40%;
+    margin-bottom: 30px;
+}
+ .content p {
+    margin-bottom: 20px;
+}
+textarea{
+    width:500px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-bottom: solid black 1px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:#292F33 ;
+    color: lavender;
+    margin-left: 125px;
+    margin-top: 20px;
+    
 }
